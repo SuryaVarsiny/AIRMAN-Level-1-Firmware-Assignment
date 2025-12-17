@@ -1,32 +1,17 @@
-# =========================
-# C / Embedded build files
-# =========================
-*.c
-*.o
-*.out
-*.bin
-*.level1_screenshots_process_file(ignore it)
+# Ignore compiled C binaries (Windows)
+telemetry_tx.exe
+*.exe
 
-# =========================
-# Python cache files
-# =========================
+# Ignore object files
+*.o
+
+# Ignore Python cache
 __pycache__/
 *.pyc
 
-# =========================
-# Logs & temporary files
-# =========================
+# Ignore editor settings
+.vscode/
+
+# Ignore temporary files
 *.log
 *.tmp
-
-# =========================
-# Editor / OS files
-# =========================
-.vscode/
-.DS_Store
-Thumbs.db
-
-# =========================
-# CSV output
-# =========================
-# output.csv
